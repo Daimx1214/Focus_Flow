@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+        <h1>FocusFlow Study Planner</h1>
+        <div class="box">
+            <h2>Add Subject</h2>
+            <div class="row">
+                <input type="text" id="subjectName" placeholder="Subject Name">
+                <input type="number" id="duration" placeholder="Duration (min)">
+            </div>
+            <button id="btn" onclick="AddSubject()">Add Subject</button>
+        </div>
+
+        <div class="box">
+            <h2> Focus Timer</h2>
+            <div id="timer">30:00</div>
+            <button id="startBtn" onclick="startTimer()">Start</button>
+            <button id="pauseBtn" onclick="pauseTimer()">Pause</button>
+            <button id="resetBtn" onclick="resetTimer()">Reset</button>
+        </div>
+
+        <div class="box">
+            <h2>Progress</h2>
+            <p>Total Tasks: <span id="total">0</span></p>
+            <p>Completed: <span id="completed">0</span></p>
+            <p>Remaining: <span id="remaining">0</span></p>
+        </div>
+
+        <div class="box">
+            <h2>Study Plan</h2>
+
+            <div id="list"></div>
+        </div>
+        <button id="resetDayBtn" onclick="resetDay()">Reset Day</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
