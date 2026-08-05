@@ -13,7 +13,7 @@ The application combines task management and time management in a simple and use
 - Set study duration for each subject
 - View all planned study tasks
 - Mark tasks as completed
-- Delete tasks
+- Delete tasks 
 - Reset all tasks for a new study day
 
 ### 📊 Progress Tracking
