@@ -5,7 +5,7 @@ FocusFlow is a productivity-focused study planner built with HTML, CSS, and Java
 The application combines task management and time management in a simple and user-friendly interface, making it easier to plan study sessions and maintain consistency.
 
 ---
- 
+  
 ## 🚀 Features
 
 ### 📖 Study Task Management
